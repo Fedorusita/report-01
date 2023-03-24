@@ -8,8 +8,8 @@
    $ ls -l -R | grep -v *.hpp | grep -v *.cpp | grep -v | wc -l   
 6. $ find $PWD -type f -name any.hpp
 7. $ grep -R -l "boost::asio"
-8. $ ./bootstrap.sh --prefix=boost_output
-   $ ./b2 install    
+8. $ ./bootstrap.sh --prefix=boost_output  
+   $ ./b2 install      
 9. $ mv ~/boost_1_69_0/boost_output/lib ~/boost-libs
 10. $ du -h -a 
 11. $ du -h -a | sort -r -h | head -n 10
